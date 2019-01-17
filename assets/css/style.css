@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Coiny:300');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+/*---------------------------------------Navbar*/
+
+.navbar { 
+    margin: 0;
+}
+
+.navbar-container {
+    position: relative;
+    margin: 0;
+    padding: 5px 8px;
+}
+
+.bg-color-navbar {
+    background-color: #e6d167;
+}
+
+.navbar-brand {
+    padding: 15px 20px;
+    font-family: 'Coiny, cursive';
+    font-size: 25px;
+    }
+    
+.navbar-default .navbar-brand {
+    
+}
+
