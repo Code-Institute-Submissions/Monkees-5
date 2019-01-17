@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Coiny:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Allura');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -24,11 +24,104 @@ body {
 
 .navbar-brand {
     padding: 15px 20px;
-    font-family: 'Coiny, cursive';
-    font-size: 25px;
-    }
+    font-family: 'Allura', cursive;
+    font-size: 37px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
     
 .navbar-default .navbar-brand {
+    color: #CE1B33;
+    transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+}
+
+
+.navbar-default .navbar-brand:hover {
+    color: #E96B7C;
     
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CE1B33;
+    height: 2px;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #EFFAA9;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #F9FAF4;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #E96B7C;
+}
+
+/*--------------------------------HomePage*/
+
+.page-container {
+    padding: 0;
+}
+
+img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+}
+
+/*-------------------------------Footer*/
+
+#footer-details {
+    margin: 10px;
+}
+
+footer {
+    background-color: #e6d167; 
+    margin: 0;
+    min-height: 60px;
+    color: #CE1B33;
+}
+
+.general-sub {
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 12px 0;
+    font-size: 13px;
+    line-height: 7px;
+    color: #fafafa;
+    background: #CE1B33;
+    transition: background-color 0.35s ease-in-out;
+    -moz-transition: background-color 0.35s ease-in-out;
+    -webkit-transition: background-color 0.35s ease-in-out;
+    -o-transition: background-color 0.35s ease-in-out;
+}
+    
+
+.social-links li a i:hover {
+    background-color: #E96B7C;
+}
+    
+
+
 
