@@ -151,7 +151,14 @@ h3 {
     background-color: #F3F3BC; 
 }
 
+/*---------------------------------GalleryPage*/
 
+
+
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+}
 
 
 
