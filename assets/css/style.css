@@ -126,6 +126,21 @@ h3 {
 
 /*---------------------------------AboutPage*/
 
+.bg-members {
+    background-color: #F3F3BC;
+}
+
+.about-members {
+    padding: 20px;
+    font-size: 15px;
+}
+
+.biography {
+    padding: 20px 70px;
+    font-weight: 600;
+    
+}
+
 .band-photo {
     padding-bottom: 20px;
 }
