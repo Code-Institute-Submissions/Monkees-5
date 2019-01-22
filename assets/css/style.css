@@ -121,6 +121,7 @@ h3 {
     font-size: 20px;
     font-weight: 300;
     word-spacing: 2px;
+    padding-bottom: 30px;
 }
 
 
@@ -131,12 +132,13 @@ h3 {
 }
 
 .about-members {
-    padding: 20px;
+    padding: 20px 40px;
     font-size: 15px;
+    color: #CE1B33; 
 }
 
 .biography {
-    padding: 20px 70px;
+    padding: 40px 70px;
     font-weight: 600;
     
 }
@@ -151,17 +153,61 @@ h3 {
     background-color: #F3F3BC; 
 }
 
+.heading-page p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 60px;
+}
+
+.monkees-audio {
+    padding-bottom: 30px;
+}
+
+.album-name p {
+    color: #CE1B33;
+    padding-top: 60px;
+    padding-bottom: 5px;
+}
+
+.album-name img {
+    padding-bottom: 60px;
+}
+
+
 /*---------------------------------GalleryPage*/
-
-
 
 .carousel-inner img {
   width: 100%;
   margin: auto;
 }
 
+/*---------------------------------BookingPage*/
 
+.bg-booking {
+    background-color: #F3F3BC;
+}
 
+.enquiry-form p {
+    padding: 50px 200px; 
+    font-size: 20px;
+    color: black;
+}
+
+.enquiry-form p span {
+    color: red;
+}
+
+.center-form form {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+}
+
+.bottom-line p {
+    padding-bottom: 30px;
+    color: black;
+}
 
 /*-------------------------------Footer*/
 
