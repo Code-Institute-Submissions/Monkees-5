@@ -1,12 +1,13 @@
 <!Doctype html>
 <html lang="en">
+  
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   <meta charset="utf-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
- </head>   
+</head>   
 
 <body>
 <!--Navbar-->
@@ -33,22 +34,26 @@
         </div>
       </div>
     </div>
-  </div>
+  </nav>
   <!--/.Navbar-->
   
-  <!--Section-->
-  <section class="section">
+  <!--Main-->
+  <main class="main">
     <div class="container-fluid page-container">
-      <div class="row">
-        <div class="col-xs-12">
-          <img src="assets/images/mainphoto.jpg" class="main-photo" alt="Monkees Image" height="300"/>
-        </div>
-      </div>
-      </div>
+      
+      <section> 
+        <!--Photo-->
+          <img src="assets/images/mainphoto.jpg" class="main-photo" alt="Monkees Image"/>
+        <!--/.Photo-->
+      </section>  
+    
       <div class="wrapper-home">
-        <div class="row text-center">
+        
+      <section>
+         <!--Song-names-->
+         <div class="row text-center">
            <div class="col-xs-12">
-              <h3>Greatest Hits</h3>
+              <h3>Have you heard of our latest album?<br> Here are the best songs:</h3>
               <p class="greatest-hits">
               "I'm A Believer".....
               "Daydream Believer".....
@@ -57,30 +62,46 @@
               "Look Out There Comes Tomorrow"</p>
            </div>
         </div>
+        <!--/.Song-names-->
+      </section>
+        
+      <section>
+        <!--Video-->
        <div class="row text-center">
         <div class="col-xs-12">
           <h3 class="video-title">The Monkees - "Daydream Believer"</h3>
-          <iframe src="assets/music/video.mp4" type="video/mp4"></iframe>
-</      </div>
-      </div>
-    <hr class="divider">
-      <div class="row text-center">
-        <div class="col-xs-12 upcoming-concerts">
-        <h3>Upcoming Concerts</h3>
-        <p>12 May 2019 | Olimpia Theatre, Dublin - 20:00</p>
-        <p>05 July 2019 | Trinity College, Dublin - 21:00</p>
-        <p>09 July 2019 | Malahide Castle, Dublin - 20:30</p>
-        <p>23 August 2019 | Iveagh Gardens, Dublin - 20:00</p>
-      </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-xs-12">
-          <h3><a class="link" href="#">BUY YOUR TICKET HERE!</a></h3>
+          <video controls="" src="assets/music/video.mp4" type="video/mp4"></video>
         </div>
-      </div>
-      </div>
-    </section>
-  <!--/.Section-->
+       </div>
+         <!--/.Video-->
+      </section>
+         
+      <hr class="divider">
+      <section>
+         <!--Concerts-->
+        <div class="row text-center">
+          <div class="col-xs-12 upcoming-concerts">
+             <h3>Upcoming Concerts</h3>
+             <p>12 May 2019 | Olimpia Theatre, Dublin - 20:00</p>
+             <p>05 July 2019 | Trinity College, Dublin - 21:00</p>
+             <p>09 July 2019 | Malahide Castle, Dublin - 20:30</p>
+             <p>23 August 2019 | Iveagh Gardens, Dublin - 20:00</p>
+          </div>
+        </div>
+         <!--/.Concerts-->
+      
+         
+         <!--Link-->
+        <div class="row text-center">
+          <div class="col-xs-12">
+              <h3><a class="link" href="#">BUY YOUR TICKET HERE!</a></h3>
+          </div>
+        </div>
+         <!--Link-->
+      </section>
+    </div>
+  </main>
+  <!--/.Main-->
   
   <!--Footer-->
   <footer class="container-fluid footer">
