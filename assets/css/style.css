@@ -142,7 +142,7 @@ h3 {
     
 }
 
-.responsive {
+.b-photo {
     padding-bottom: 20px;
 }
 
@@ -173,13 +173,36 @@ h3 {
 
 /*---------------------------------GalleryPage*/
 
-.carousel-inner img {
-  width: 100%;
-  margin: auto;
+.bg-gallery {
+    background-color: #F3F3BC;
+}
+    
+.responsive {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
 }
 
-/*---------------------------------BookingPage*/
+div.gallery img {
+    border: 3px dotted black;
+}
 
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+/*---------------------------------BookingPage*/
 
 
 .bg-booking {
@@ -223,7 +246,6 @@ h3 {
 .center-form button {
     margin-top: 85px;
 }
-
 
 .bottom-line p {
     color: black;
