@@ -102,11 +102,27 @@ h3 {
     font-family: 'Sacramento', cursive;
     font-size: 35px;
     font-weight: 200;
-    padding: 20px 80px;
+    padding: 20px 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .greatest-hits {
+        font-size: 25px;
+    }
 }
 
 .video-title {
     color: #CE1B33;
+}
+
+video {
+    width: 70%;
+}
+
+@media screen and (max-width: 600px) {
+    video {
+        width: 90%;
+    }
 }
 
 .link {
@@ -121,7 +137,13 @@ h3 {
     font-size: 20px;
     font-weight: 300;
     word-spacing: 2px;
-    padding-bottom: 30px;
+    padding: 30px 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .upcoming-concerts {
+        font-size: 15px;
+    }
 }
 
 
@@ -139,11 +161,23 @@ h3 {
 .biography {
     padding: 40px 70px;
     font-weight: 600;
-    
+}
+
+@media screen and (max-width: 600px) {
+    .biography {
+        padding: 30px;
+    }
 }
 
 .b-photo {
     padding-bottom: 20px;
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .b-photo {
+        width: 80%;
+    }
 }
 
 /*---------------------------------MusicPage*/
@@ -176,29 +210,11 @@ h3 {
 .bg-gallery {
     background-color: #F3F3BC;
 }
-    
-.responsive {
-    float: left;
-    width: 50%;
-    text-align: center;
-    padding: 20px 0;
-}
 
 div.gallery img {
-    border: 3px dotted black;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
+    border: 2px dotted black;
+    display: inline-block;
+    margin: 20px 0;
 }
 
 
@@ -210,13 +226,20 @@ div.gallery img {
 }
 
 .enquiry-form {
-    padding-bottom: 30px;
+    padding: 50px 0;
 }
 
 .enquiry-form p {
-    padding: 50px 200px; 
+    margin: 0 auto; 
     font-size: 18px;
     color: black;
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .enquiry-form p {
+        width: 90%;
+    }
 }
 
 .enquiry-form p span {
@@ -226,6 +249,7 @@ div.gallery img {
 .form-group label {
     font-size: 25px;
     margin-top: 30px;
+    text-align: center;
 }
 
 .form-select .form-selection {
@@ -234,9 +258,14 @@ div.gallery img {
 }
 
 .center-form form {
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 100px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .center-form form {
+        width: 90%;
+    }
 }
 
 .center-form label {
@@ -249,7 +278,7 @@ div.gallery img {
 
 .bottom-line p {
     color: black;
-    padding-bottom: 50px;
+    padding: 80px 0;
 }
 
 /*-------------------------------Footer*/
