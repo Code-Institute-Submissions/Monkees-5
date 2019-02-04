@@ -14,9 +14,13 @@ The website ia also for fans and potential fans who wish to use the site to see 
 It provides users with general information about the band, ensure easy approach for booking a tickets who want to see them performing 
 live and also to book the band for an event. This website include the best bands' possible assets to ensure the best experience for the users.
 
+#### Wireframes for mobile:
+
+ ![wireframes](assets/photos/screenshot1.jpg)
+
 #### Wireframes for desktop:
 
-#### Wireframes for mobile:
+ ![wireframes](assets/photos/screenshot2.jpg)
 
 ## Features
 
@@ -92,8 +96,6 @@ https://en.wikipedia.org/wiki/The_Monkees
 * more images are from The Monkees website: https://en.wikipedia.org/wiki/The_Monkees;
 
 **Aknowledgement**
-
-* slack: I got help with small issues;
 
 * my mentor: Ignatius Ukwuoma - my main help throughout the project;
 
